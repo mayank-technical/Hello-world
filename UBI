@@ -1,0 +1,52 @@
+Python 2.7.9 (default, Dec 10 2014, 12:24:55) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> a="String string String string String"
+print (a.endswith("String",0,27))
+>>> 
+[DEBUG ON]
+>>> 
+[DEBUG OFF]
+>>> a="String string String string String"
+print (a.endswith("String",0,27));
+>>> run
+
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    run
+NameError: name 'run' is not defined
+>>> .py
+SyntaxError: invalid syntax
+>>> 
+1,py
+
+Traceback (most recent call last):
+  File "<pyshell#4>", line 2, in <module>
+    1,py
+NameError: name 'py' is not defined
+>>> 1.py
+SyntaxError: invalid syntax
+>>> a="String string String string String"
+print (a.endswith("String",0,27))
+>>> print "hh"
+hh
+>>> a="String string String string String" print (a.endswith("String",0,27))
+SyntaxError: invalid syntax
+>>> a="String string String string String" print (a.endswith("String",0,27))
+SyntaxError: invalid syntax
+>>> a="String string String string String"  print (a.endswith("String",0,27))
+SyntaxError: invalid syntax
+>>> a="String string String string String"
+print (a.endswith("String",0,27))
+>>> a=r
+
+Traceback (most recent call last):
+  File "<pyshell#12>", line 1, in <module>
+    a=r
+NameError: name 'r' is not defined
+>>> a=5
+>>> print a
+5
+>>> a="String string String string String"
+>>> print (a.endswith("String",0,27))
+False
+>>> 
